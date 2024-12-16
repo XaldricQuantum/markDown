@@ -37,7 +37,7 @@
 .preview-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 90%;
   min-height: 45vh;
@@ -87,7 +87,7 @@ button {
 }
 
 button:hover {
-  color: var(--blue-munsell);
+  color: var(--pomp-power);
 }
 
 .fa-free-code-camp {
