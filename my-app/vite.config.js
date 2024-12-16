@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://github.com/XaldricQuantum/markDown/tree/main/my-app'
+  outDir: 'dist',
+  base: '/markdown/'
 })
